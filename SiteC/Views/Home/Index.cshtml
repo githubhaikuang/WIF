@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using Microsoft.IdentityModel.Claims
+@{
+    ViewBag.Title = "SiteB主页";
+    ClaimsIdentity ci = User.Identity as ClaimsIdentity;
+    if (ci != null)
+    {
+        <h2>@ci.Claims.SingleOrDefault(c => c.ClaimType == ClaimTypes.Email).Value</h2>
+        <h2>@ci.Claims.SingleOrDefault(c => c.ClaimType == ClaimTypes.DateOfBirth).Value</h2>
+    }
+    <h2>@User.Identity.Name</h2>
+}
+
+
+<a href="http://www.p.cn/Account/LogOff">退出</a>

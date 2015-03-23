@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using System.Security.Claims
+@{
+    ViewBag.Title = "SiteB主页";
+    ClaimsIdentity ci = User.Identity as ClaimsIdentity;
+    if (ci != null)
+    {
+        <h2>@ci.FindFirst(ClaimTypes.Name).Value</h2>
+        <h2>@ci.FindFirst(ClaimTypes.Email).Value</h2>
+    }
+}
+
+
+<a href="http://localhost:21886/Account/LogOff">退出</a>

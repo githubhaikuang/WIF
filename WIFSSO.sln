@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteA", "SiteA\SiteA.csproj", "{A0450EF2-DFC1-4532-B626-1229E1F8EBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteP", "SiteP\SiteP.csproj", "{0CAEB4B2-62B1-4C73-9B14-6BF0C9347CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteB", "SiteB\SiteB.csproj", "{80F99A88-62A9-46D9-BC5A-E21E0CAE0187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{96245C51-CB84-4306-B74C-5B35567613E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteC", "SiteC\SiteC.csproj", "{859E96CE-ACCF-4EAD-831E-A0345187CAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0AAD27A8-00B1-44E0-8462-C9276EFF7448}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.96.142.116:8080/tfs/opencollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SiteA\\SiteA.csproj
+		SccProjectName1 = SiteA
+		SccLocalPath1 = SiteA
+		SccProjectUniqueName2 = SiteP\\SiteP.csproj
+		SccProjectName2 = SiteP
+		SccLocalPath2 = SiteP
+		SccProjectUniqueName3 = SiteB\\SiteB.csproj
+		SccProjectName3 = SiteB
+		SccLocalPath3 = SiteB
+		SccProjectUniqueName4 = Identity\\Identity.csproj
+		SccProjectName4 = Identity
+		SccLocalPath4 = Identity
+		SccProjectUniqueName5 = SiteC\\SiteC.csproj
+		SccProjectName5 = SiteC
+		SccLocalPath5 = SiteC
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0450EF2-DFC1-4532-B626-1229E1F8EBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0450EF2-DFC1-4532-B626-1229E1F8EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0450EF2-DFC1-4532-B626-1229E1F8EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0450EF2-DFC1-4532-B626-1229E1F8EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAEB4B2-62B1-4C73-9B14-6BF0C9347CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAEB4B2-62B1-4C73-9B14-6BF0C9347CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAEB4B2-62B1-4C73-9B14-6BF0C9347CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAEB4B2-62B1-4C73-9B14-6BF0C9347CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F99A88-62A9-46D9-BC5A-E21E0CAE0187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F99A88-62A9-46D9-BC5A-E21E0CAE0187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F99A88-62A9-46D9-BC5A-E21E0CAE0187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F99A88-62A9-46D9-BC5A-E21E0CAE0187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96245C51-CB84-4306-B74C-5B35567613E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96245C51-CB84-4306-B74C-5B35567613E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96245C51-CB84-4306-B74C-5B35567613E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96245C51-CB84-4306-B74C-5B35567613E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859E96CE-ACCF-4EAD-831E-A0345187CAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859E96CE-ACCF-4EAD-831E-A0345187CAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859E96CE-ACCF-4EAD-831E-A0345187CAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859E96CE-ACCF-4EAD-831E-A0345187CAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@{
+    ViewBag.Title = "登录";
+    var addressesExpected = ViewBag.AddressesExpected as string[];
+    if (addressesExpected != null)
+    {
+        foreach (var address in addressesExpected)
+        {
+            <img src="@(address)?wa=wsignoutcleanup1.0" style="display:none;" />
+        }
+    }
+    var url = "";
+    if (Request.UrlReferrer != null)
+    {
+        url = "http://localhost:21886/Account/Login?ReturnUrl=" + HttpUtility.UrlEncode(Request.UrlReferrer.AbsoluteUri.ToString());
+    }
+}
+<script>
+    $(function () {
+        location.href = '@url';
+    });
+</script>
